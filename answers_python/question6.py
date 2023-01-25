@@ -4,7 +4,7 @@ for i in range(101):
     
 sumAll = 0
 for j in range(101):
-    sumAll = sumAll + j
+    sumAll += j
 
 sumAll = sumAll**2
 
