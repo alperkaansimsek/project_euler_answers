@@ -4,7 +4,7 @@ def findDivisors(number):
     sumofDivisors = 0
     for i in range(1, counter):
         if(number % i == 0):
-            sumofDivisors = i + sumofDivisors
+            sumofDivisors += i 
     return sumofDivisors
 
   
@@ -17,7 +17,7 @@ for a in range(a, 10000):
     b = findDivisors(a)
     c = findDivisors(b)
     if(c == a and b != c):
-        sum = sum + a
+        sum += a
         continue
     else:
         continue
