@@ -3,8 +3,8 @@ sum = 0
 
 for i in range(1000):
     toSum = pow(number, number)
-    sum = sum + toSum
-    number = number + 1
+    sum += toSum
+    number += 1
 
 print(sum)
 
