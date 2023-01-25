@@ -9,7 +9,7 @@ while(counter <= 32):
     preNum = num
     num = fib
     if(fib % 2 == 0):
-        sum = sum + fib
+        sum += fib
     counter += 1
 
 
