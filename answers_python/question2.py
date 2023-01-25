@@ -10,7 +10,7 @@ while(counter <= 32):
     num = fib
     if(fib % 2 == 0):
         sum = sum + fib
-    counter = counter + 1
+    counter += 1
 
 
 print(sum)
